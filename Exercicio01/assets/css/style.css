@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5c5c5c;
+}
+
+.titulo {
+    color: #FFFFFF;
+}
+
+.lista-links {
+    display: flex;
+}
+
+.lista-links li {
+    margin: 20px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.midia-foto {
+    /*contúdo que armazena varias caixas de imagem*/
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.foto {
+    /*foto*/
+    width: 90%;
+    background-color: rgb(151, 149, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.foto img {
+    width: 400px;
+    margin: 20px 0px 0px 0px;
+}
+
+.cabecalho-musicas {
+    font-size: 30px; 
+    color: #5c5c5c;
+}
+
+.musicas {
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.lista-musica {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.musica-titulo { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lista-musica li {
+    flex: 1;
+}
+
+.musica-titulo {
+    text-align: center;
+    background-color: #5c5c5c;
+    height: 50px;
+    border-radius: 40px;
+    margin: 10px;
+    color: #FFFFFF;
+}
+.musica-letra {
+    margin-right: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+    font-size: 16px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+.bio {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    color: #5c5c5c;
+}
+
+.bio p {
+    font-size: 16px;
+}
+
+.veja-tambem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteudo1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 100px;
+    align-self: start;
+}
+
+.conteudo1 i {
+    color: #5c5c5c;
+    margin-right: 2px;
+    
+}
+
+.conteudo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    flex: 1;
+    padding: 100px;
+    align-self: start;
+}
+
+.conteudo3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 100px;
+    align-self: start;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer i {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #5c5c5c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
