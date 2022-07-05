@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .lista-links {
@@ -35,7 +35,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .moldura {
@@ -43,6 +43,7 @@ header {
     justify-content: center;
     width: 84%;
     background-image: url(../img/cover-image\ \(1\).png);
+    background-repeat: no-repeat;
     border-radius: 30px;
 }
 
@@ -55,7 +56,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 #nome-titulo {
@@ -90,7 +91,7 @@ article {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .biografia {
@@ -117,6 +118,7 @@ article {
 .veja-tambem {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .informacoes {
@@ -200,7 +202,7 @@ footer a {
     font-weight: bold;
 }
 
-@media (max-width: 80rem) {
+@media (max-width: 70rem) {
 
     header {   
         flex-direction: column;
@@ -226,10 +228,6 @@ footer a {
     .lista-links a {
         
         font-size: 20px;
-    }
-
-    .fotografia {
-
     }
 
     .moldura {
